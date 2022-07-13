@@ -1,9 +1,14 @@
-import Image from 'next/image';
 import Hero from './components/Hero';
-import styles from './Home.module.scss';
+import Section from './components/Section';
 
 function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <Section Title='Popular' />
+      <Section Title='New' />
+    </>
+  );
 }
 
 export default Home;
