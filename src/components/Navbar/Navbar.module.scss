@@ -1,0 +1,32 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 40px 40px;
+
+  & .Logo {
+    cursor: pointer;
+  }
+
+  & .LinkContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    & .LinkItem {
+      font-size: 16px;
+    }
+
+    & .LoginBtn {
+      padding: 8px 16px;
+      min-width: 100px;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: var(--black);
+      color: white;
+    }
+  }
+}
