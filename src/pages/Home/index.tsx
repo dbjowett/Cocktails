@@ -1,13 +1,9 @@
-import Navbar from '@/components/Navbar';
-import React from 'react';
+import Image from 'next/image';
+import Hero from './components/Hero';
 import styles from './Home.module.scss';
 
 function Home() {
-  return (
-    <div className={styles.PageContainer}>
-      <Navbar />
-    </div>
-  );
+  return <Hero />;
 }
 
 export default Home;
