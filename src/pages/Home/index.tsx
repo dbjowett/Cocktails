@@ -12,3 +12,5 @@ function Home() {
 }
 
 export default Home;
+
+//Get Popular and New items and pass down through props
